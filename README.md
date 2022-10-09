@@ -24,9 +24,9 @@ npm test
 
   Get a country code for a country name. Case-insensitive.
 
-  Examples:
-
+## Usage
 ```js
+import * as countryencoder from "countryencoder"
 // Returns 'CH'
 countryencoder.getCode('Switzerland')
 // Returns 'BB'

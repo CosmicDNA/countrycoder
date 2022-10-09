@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    countryencoder = require('../index');
+    countryencoder = require('../src/index');
 
 assert.equal(countryencoder.getCode('French Guiana'), 'GF');
 assert.equal(countryencoder.getName('BF'), 'BURKINA FASO');
