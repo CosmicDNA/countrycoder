@@ -5,7 +5,7 @@ country codes to country names and vice versa. Also provides lists of all names 
 
 ## Installation
 ```
-npm install countrynames
+npm install countryencoder
 ```
 
 ## Tests
@@ -15,12 +15,12 @@ npm test
 
 ## API Overview
 
-  - [exports.getCode()](#exportsgetcodeenglishstring)
-  - [exports.getName()](#exportsgetnametwoletterstring)
-  - [exports.getAllCodes()](#exportsgetallcodes)
-  - [exports.getAllNames()](#exportsgetallnames)
+  - [countryencoder.getCode()](#exportsgetcodeenglishstring)
+  - [countryencoder.getName()](#exportsgetnametwoletterstring)
+  - [countryencoder.getAllCodes()](#exportsgetallcodes)
+  - [countryencoder.getAllNames()](#exportsgetallnames)
 
-## exports.getCode(English:String)
+## countryencoder.getCode(English:String)
 
   Get a country code for a country name. Case-insensitive.
 
@@ -28,12 +28,12 @@ npm test
 
 ```js
 // Returns 'CH'
-countrynames.getCode('Switzerland')
+countryencoder.getCode('Switzerland')
 // Returns 'BB'
-countrynames.getCode('BarbaDOS')
+countryencoder.getCode('BarbaDOS')
 ```
 
-## exports.getName(Two-letter:String)
+## countryencoder.getName(Two-letter:String)
 
   Get a country name for a country code. Case-insensitive.
 
@@ -41,12 +41,12 @@ countrynames.getCode('BarbaDOS')
 
 ```js
 // Returns 'TONGA'
-countrynames.getName('TO')
+countryencoder.getName('TO')
 // Returns 'RÉUNION'
-countrynames.getName('re')
+countryencoder.getName('re')
 ```
 
-## exports.getAllCodes()
+## countryencoder.getAllCodes()
 
   Get a country name for a country code. Case-insensitive.
 
@@ -54,10 +54,10 @@ countrynames.getName('re')
 
 ```js
 // Returns an array ["AD", ... "ZW"]
-countrynames.getAllCodes();
+countryencoder.getAllCodes();
 ```
 
-## exports.getAllNames()
+## countryencoder.getAllNames()
 
   Get a country name for a country code. Case-insensitive.
 
@@ -65,8 +65,8 @@ countrynames.getAllCodes();
 
 ```js
 // Returns an array ["AFGHANISTAN", ... "ZIMBABWE", "ÅLAND ISLANDS"]
-countrynames.getAllNames();
+countryencoder.getAllNames();
 ```
 
-## License 
+## License
 MIT

@@ -1,8 +1,8 @@
 {
   "name": "countryencoder",
   "description": "Map country names to ISO 3166-1-alpha-2 country codes and back",
-  "version": "0.1.4",
-  "author": "Daniel de Souza <info@cosmicdna.co.uk>",
+  "version": "0.1.5",
+  "author": "Dev at Cosmic DNA <info@cosmicdna.co.uk>",
   "repository": {
     "type": "git",
     "url": "https://github.com/CosmicDNA/countryencoder"
