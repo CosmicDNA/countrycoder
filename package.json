@@ -17,7 +17,8 @@
     "node": "*"
   },
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "prepare": "husky install"
   },
   "licenses": [
     {
@@ -27,5 +28,8 @@
   ],
   "readmeFilename": "README.md",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
 }
