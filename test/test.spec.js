@@ -1,11 +1,11 @@
 var assert = require('assert'),
-    countrycodes = require('../index');
+    countrycoder = require('../index');
 
-assert.equal(countrycodes.getCode('French Guiana'), 'GF');
-assert.equal(countrycodes.getName('BF'), 'BURKINA FASO');
-assert.equal(countrycodes.getCode('Iran'), countrycodes.getCode('IRAN, ISLAMIC REPUBLIC OF'));
-assert.equal(countrycodes.getCode(countrycodes.getName('IO')), 'IO');
-assert.ok(countrycodes.getAllCodes() instanceof Array);
-assert.ok(countrycodes.getAllNames() instanceof Array);
+assert.equal(countrycoder.getCode('French Guiana'), 'GF');
+assert.equal(countrycoder.getName('BF'), 'BURKINA FASO');
+assert.equal(countrycoder.getCode('Iran'), countrycoder.getCode('IRAN, ISLAMIC REPUBLIC OF'));
+assert.equal(countrycoder.getCode(countrycoder.getName('IO')), 'IO');
+assert.ok(countrycoder.getAllCodes() instanceof Array);
+assert.ok(countrycoder.getAllNames() instanceof Array);
 
 console.log('Passed successfully.');

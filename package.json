@@ -1,11 +1,11 @@
 {
-  "name": "countrycodes",
+  "name": "countrycoder",
   "description": "Map country names to ISO 3166-1-alpha-2 country codes and back",
   "version": "0.1.2",
   "author": "Daniel de Souza <info@cosmicdna.co.uk>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CosmicDNA/countrycodes"
+    "url": "https://github.com/CosmicDNA/countrycoder"
   },
   "keywords": [
     "countries",
